@@ -2,6 +2,13 @@ package com.synytsia.bpt;
 
 import com.synytsia.exceptions.ExerciseNotCompletedException;
 
+/**
+ * Define the following fields:
+ * <ol>
+ *     <li>Order - maximum number of children node can have</li>
+ *     <li>Root - root of the tree. Can be either leaf (at the beginning) or inner (when tree growths) node</li>
+ * </ol>
+ */
 public class BPlusTree {
 
     /**
